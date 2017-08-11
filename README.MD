@@ -3,7 +3,7 @@
 ```
 Version: 0.1
 Author: Lei Mao
-Updated: 8/9/2017
+Updated: 8/11/2017
 Institution: The University of Chicago
 ```
 
@@ -160,4 +160,4 @@ To retrieve article
 ```shell
 python moegirlmidas.py -r "ÉñÁÑ»ðÖ¯"
 ```
-The sample codes above could also be run in a Jupyter Notebook. See the run results [here](https://github.com/leimao/MoeGirlMidas).
+The sample codes above could also be run in a Jupyter Notebook. See the run results [here](https://github.com/leimao/MoeGirlMidas/blob/master/sample_code.ipynb).
