@@ -160,3 +160,4 @@ To retrieve article
 ```shell
 python moegirlmidas.py -r "ÉñÁÑ»ðÖ¯"
 ```
+The sample codes above could also be run in a Jupyter Notebook. See the run results [here](https://github.com/leimao/MoeGirlMidas).
