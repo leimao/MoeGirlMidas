@@ -29,7 +29,7 @@ MoeGirlMidas was wrapped into a class object called "MoeGirlAPI". To use MoeGirl
 ```python
 from moegirlmidas import MoeGirlAPI
 moegirl = MoeGirlAPI()
-# To search for certain query in Wikipedia
+# To search for certain query in MoeGirl
 # term is the keyword you are interested in; limit is the maximum number of returns
 # the return is a list of relavant article titles found
 search_result = moegirl.search(term = '神裂火织', limit = 50)
@@ -38,14 +38,18 @@ for item in search_result:
 >>>
 神裂火织
 
-# To retrieve article from Wikipedia
-# title is the title of the article you want to retrieve from Wikipedia
-# the return is article-class object containing 'heading', 'summary', 'content', 'image', 'references' and 'url'
+# To retrieve article from MoeGirl
+# title is the title of the article you want to retrieve from MoeGirl
+# the return is article-class object containing 'heading', 'summary', 'content', 'properties', 'image', 'references' and 'url'
 article = moegirl.retrieve(title = '神裂火织')
 # To view the article content
 print article.heading
 >>>
 神裂火织
+
+print article.image
+>>> 
+https://img.moegirl.org/common/thumb/f/fd/Kanzaki_Kaori.jpg/250px-Kanzaki_Kaori.jpg
 
 print article.summary
 >>>
