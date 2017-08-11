@@ -35,41 +35,27 @@ moegirl = MoeGirlAPI()
 search_result = moegirl.search(term = '神裂火织', limit = 50)
 for item in search_result:
     print(item)
-```
-```
 >>>
 神裂火织
-```
-```python
+
 # To retrieve article from MoeGirl
 # title is the title of the article you want to retrieve from MoeGirl
 # the return is article-class object containing 'heading', 'summary', 'content', 'properties', 'image', 'references' and 'url'
 article = moegirl.retrieve(title = '神裂火织')
 # To view the article content
 print article.heading
-```
-```
 >>>
 神裂火织
-```
-```python
+
 print article.image
-```
-```
 >>> 
 https://img.moegirl.org/common/thumb/f/fd/Kanzaki_Kaori.jpg/250px-Kanzaki_Kaori.jpg
-```
-```python
+
 print article.summary
-```
-```
 >>>
 神裂火织是轻小说《魔法禁书目录》及其衍生的漫画、动画、游戏等作品的登场角色。
-```
-```python
+
 print article.content
-```
-```
 >>>
 神裂火织
 
@@ -117,12 +103,8 @@ print article.content
 
 导航菜单
 
-```
-```python
 for key in article.properties.keys():
     print key, ':', article.properties[key], '\n'
-```
-```
 >>>
 发色 : 黑发 
 
