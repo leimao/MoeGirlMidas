@@ -17,10 +17,10 @@ Search and retrieve for fictional characters' articles from MoeGirl (https://zh.
 
 ## Dependencies
 
-* re (https://pythonhosted.org/pyquery/)
+* re (https://docs.python.org/2/library/re.html)
 * bs4 (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * requests (http://docs.python-requests.org/en/master/)
-* pyquery (https://docs.python.org/2/library/re.html)
+* pyquery (https://pythonhosted.org/pyquery/)
 
 ## Usage
 
